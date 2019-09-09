@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Chat Room</title>
+  <link type="text/css" rel="stylesheet" href="css/chat.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+  <script type="text/javascript" src="js/chat.js"></script>
+</head>
+<body>
+  
+  <div class="login-wrap">
+    <div class="login-con">
+      <h3>Enter User</h3>
+      <input type="text" placeholder="Please enter your user name:" id="loginName">
+      <button class="login-btn">Login</button>
+    </div>
+    </div>
+  </div>
+  
+  <div class="chat-wrap hide">
+    <div class="channel">  
+      <h1>Chat Room</h1>
+
+      <input type="text" id='channame'> 
+      <button class='join-btn'>Join channel</button>
+      <button class='dis-btn'>Disconnect</button>
+    </div>
+    <!--
+    <div class="users-con" id="users-con">
+      <p><h4>Online Users:</h4></p>
+    </div>
+  -->
+    <div class="chat-con clearfix" id="chat-con"></div>
+    <div class="bottom">
+    <div class="chat-bot">
+      <div>
+      <h5>Channel:</h5>
+      <h5>Message:</h5>
+    </div>
+      <input type="text" id='msgchannel'>
+      <input type="text" id="content">
+      <button class="sendBtn">Send</button>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+
+*{padding:0; margin:0;}
+html,body{
+	width:100%;
+	height: 100%;
+}
+
+.login-wrap{
+	background:rgb(50,55,65);
+	width:100%;
+	height:100%; 
+	text-align:center;
+}
+.login-con{
+	padding-top: 50px;
+}
+.login-con h3{
+	color: rgb(255,255,255);
+	margin-bottom: 20px;
+	font-weight: bolder;
+}
+.login-con input{
+	width:50%; 
+	display:block; 
+	margin:0 auto; height: 40px; 
+	line-height: 40px; 
+	margin-bottom: 20px;}
+.login-con button{
+	width:40%;
+	display:inline-block; 
+	margin:0 auto; 
+	height: 40px; 
+	line-height:40px; 
+	border:none; 
+	background:rgb(66,88,137); 
+	color:rgb(255,255,255); 
+	border-radius:5px;
+}
+
+
+.chat-wrap{
+	width: 100%; 
+	height: 100%;
+	overflow-y:scroll; 
+	background:rgb(28,30,35); 
+	color: rgb(255,255,255); 
+}
+.channel{
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+	background: rgb(52,55,63);
+	position:;
+
+}
+.channel input{
+	display: inline-block;
+	width: 25%; 
+	height: 50px; 
+	line-height: 52px;
+	margin-top: 1%;
+	margin-left: 25%;
+	border:none;
+	background: rgb(83,87,97);
+}
+.channel .join-btn{
+	display: inline-block;
+	width: 25%;
+	height: 50px;
+	margin-top: 1%;
+	margin-right: 0% ;
+	float: right; 
+	border:none; 
+	background:rgb(46,94,111);
+	color: rgb(255,255,255);
+}
+.channel .dis-btn{
+	display: inline-block;
+	width: 25%;
+	height: 50px;
+	margin-top: 1%;
+	margin-right: 0% ;
+	float: right; 
+	border:none; 
+	background:rgb(146,66,100);
+	color: rgb(255,255,255);
+}
+.channel h1{
+	text-align: center;
+	font-weight: bolder;
+	color: rgb(255,255,255);
+	font-family: ;
+
+}
+
+.chat-con{
+	padding: 50px 0; 
+	background:rgb(28,30,35);
+}
+.chat-con p{
+	display:inline-block; 
+	padding:5px 10px; 
+	background:#999;
+	border-radius:5px; 
+	color:#fff; 
+	margin:5px 0;
+}
+.bottom{
+	position:fixed;
+	bottom:0; 
+	left: 0; 
+	width:100%; 
+	height: 20%; 
+	background: rgb(52,55,63);
+}
+.bottom input{
+	display: inline-block;
+	width: 35%; 
+	height: 50px; 
+	line-height: 52px;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: ;
+	float:left;
+	border:none;
+	background: rgb(83,87,97);
+}
+.bottom h5{
+	display: inline-block;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 30%;
+	color:rgb(255,255,255);
+
+}
+.bottom button{
+	width: 22%;
+	height: 50px;
+	margin-top: 1%;
+	margin-right: 1% ;
+	float: right; 
+	border:none; 
+	background:#459d36;
+	color: #fff;
+}
+.chat-item{
+	width:100%; 
+	margin-bottom:20px;
+	width:60%;
+	display:block; 
+	float: left;
+	padding:10px;
+	border-radius:5px; 
+	margin-right:10px;
+	margin-left: 10px;
+	
+}
+.item-left{
+	float: left;
+	background: rgb(120,180,210);
+}
+.item-right{
+	float: right;
+	text-align: right;
+	background: rgb(120,180,55);
+}
