@@ -1,4 +1,4 @@
-# Networking Midterm
+# For Computer Networking Course
 
 ## Installation
 
